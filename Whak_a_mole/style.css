@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-rows: 0.2fr, 1fr;
+    padding: 1rem 20rem;
+}
+
+#board {
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#grid {
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid {
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem;
+}
+
+.square {
+    border: 1px solid black;
+    height: 11rem;
+    width: 100%;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+}
